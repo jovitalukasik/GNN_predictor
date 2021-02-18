@@ -1,0 +1,21 @@
+{
+"model": "GNNpred",
+"batch_size": 128,
+"epochs": 100,
+"num_gnn_layers": 2, 
+"num_acc_layers":4,
+"gnn_hidden_dimensions": 56,
+"gnn_node_dimensions": 250,
+"dim_target" : 1,
+"learning_rate": 0.00001,
+"dropout_prob": 0,
+"train_data_path" : "data/training_data_70.pth",
+"val_data_path":"data/validation_data_10.pth", 
+"test_data_path":"data/test_data_20.pth", 
+"train_data_rf_path" : "data/training_data_70.txt",
+"val_data_rf_path":"data/validation_data_10.txt", 
+"num_workers": 4, 
+"num_node_atts": 5,
+"max_num_nodes":7,
+"one_hot_encoded" : 35
+}
